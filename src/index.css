@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.title-bar {
+    background-color: #000086;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 2% 0;
+    /*position: sticky;
+    top: 0;*/
+    z-index: 1;
+}
+.Chart {
+    width: 90%;
+    margin: 0 auto;
+}
+.doughnut, .bar {
+	width: 80%;
+    height: 40vh;
+    /* float: left; */
+    margin: 2% auto;
+}
+.bar {
+    z-index: 1;
+}
+.asd{
+	width: 300px; height: 300px;
+}
